@@ -44,6 +44,7 @@ class FichaProducto extends Component {
                         <p>
                             Este producto tiene un valor de : <b>{this.props.props.precio}</b> 
                         </p>
+                        <p> Hay <b> {this.props.props.stock} </b> unidades de este producto disponibles. </p>
                 </ModalBody>
                 <ModalFooter className='modalFooter'>
                     <Button color='primary' onClick={this.toggle}> Agregar al Carrito</Button>
