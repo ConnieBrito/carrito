@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container,Row } from 'reactstrap';
 import './App.css';
-import Producto from './Components/Producto'
+import Producto from './Components/Producto.jsx'
 
 function App() {
   return (
